@@ -1,0 +1,8 @@
+export TZ=Asia/Seoul
+export MYSQL_DATABASE_HOST=
+export MYSQL_DATABASE_DB=mail
+export MYSQL_DATABASE_USER=mail
+export MYSQL_DATABASE_PASSWORD=
+export LMTP_HOST=
+export LMTP_PORT=2525
+export LMTP_LOCAL_HOSTNAME=
