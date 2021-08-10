@@ -45,10 +45,6 @@ class Globals:
 
 g = Globals()
 
-def send_lmtp(toaddr, eml):
-	lmtp = g.get_lmtp()
-	lmtp.sendmail('', toaddr, eml)
-
 def splitaddr(addr):
 	m = re.search(r'([^<>@]+)@([^<>@]+)', addr)
 	if m is None: return (None, None)
